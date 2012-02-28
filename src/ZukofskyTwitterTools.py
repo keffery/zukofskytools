@@ -38,11 +38,14 @@ class Console(cmd.Cmd):
         
     
     def do_tweet(self,tweet):
-        self.twitter.api.update_status(tweet)       
+        self.twitter.api.update_status(tweet)
+        print(tweet)
+               
     def do_mentions(self,arg):
         mentions = self.twitter.api.mentions()
         for mention in mentions:
             print(mention.user.name,ascii(mention.text))
+            
     def do_dontfollowme(self,arg):
         ct = 0
         for friend in self.friends:
@@ -53,7 +56,7 @@ class Console(cmd.Cmd):
         print("----")
         
     def do_idontfollow(self,arg):
-        ct = 0
+        ct =0
         for follower in self.followers:
             if self.friends.count(follower) == 0:
                 ct +=1
@@ -61,6 +64,7 @@ class Console(cmd.Cmd):
                         
         print(ct)
         print("----")  
+        
     def do_me(self,arg):
         print(self.twitter.api.me().name) 
         print("----")

@@ -47,6 +47,7 @@ class Console(cmd.Cmd):
                 print(friend)
         print(ct)
         print("----")
+        
     def do_idontfollow(self,arg):
         ct = 0
         for follower in self.followers:

@@ -16,8 +16,12 @@ class ZukofskyTwitterTools(object):
 
 
     def __init__(self):
+        print("Zukofsky Twitter Tools")
+        print("-----------------------")
         auth = tweepy.OAuthHandler("hOfmzo8cdQoRD4GYkI4XCg", "LDzfw6X38jNGA5TBmHT7LZO7iEZ2qdhMJS52cYKrE")
-        auth.set_access_token("336394520-9gjSckXvXgeRUG3NZT89q4ZJFHWWG2AS88URBlrz","pLRT5r8hWOyO5d06HzqsxCQwKtMsRRJWVfqnd0hfwg")
+        print("URL: ",auth.get_authorization_url())
+        auth.get_access_token(input("Verifier: "))
+        
         self.api = tweepy.API(auth)
 
 class Console(cmd.Cmd):

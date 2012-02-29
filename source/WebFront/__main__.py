@@ -35,7 +35,7 @@ class Root:
             cherrypy.session['followers'] = zukofsky.get_followers(api)
         return tmpl.render(friends=cherrypy.session.get('friends'),
                             followers=cherrypy.session.get('followers'))
-    @cherrypy.expose
+    @cherrypy.expose    
     def theynot(self):
         tmpl = env.get_template('theynot.html')
         friendsnot = []

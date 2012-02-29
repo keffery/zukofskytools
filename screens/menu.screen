@@ -1,58 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Browser" id="1" x="88" y="24" width="601" height="457" text="Browser&#xA;http://..." measuredWidth="601" measuredHeight="457"/>
-  <widgets xsi:type="model:Label" id="2" x="248" y="86" text="Zykofsky Tools" measuredWidth="297" measuredHeight="67">
+  <widgets xsi:type="model:Browser" id="1" x="88" y="24" width="601" height="457" text="Browser http://www.zukfsky.com" measuredWidth="601" measuredHeight="457"/>
+  <widgets xsi:type="model:Label" id="2" x="216" y="86" text="Zukofsky Tools" measuredWidth="297" measuredHeight="67">
     <font size="32"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="6" x="448" y="152" text="Hello, user_name" measuredWidth="119" measuredHeight="29">
+  <widgets xsi:type="model:Label" id="6" x="456" y="144" text="Hello, user_name" measuredWidth="119" measuredHeight="29">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="12" x="136" y="200" text="Tool 1" measuredWidth="62" measuredHeight="31">
+  <widgets xsi:type="model:Label" id="31" x="136" y="180" text="Quienes no te siguen" measuredWidth="141" measuredHeight="64" textAlignment="Center" icon="image (large)" iconPosition="top">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="13" x="136" y="256" text="Tool 2" measuredWidth="62" measuredHeight="31">
+  <widgets xsi:type="model:Label" id="32" x="136" y="256" text="A quienes no sigues" measuredWidth="132" measuredHeight="64" textAlignment="Center" icon="image (large)" iconPosition="top">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="14" x="136" y="320" text="Tool 2" measuredWidth="62" measuredHeight="31">
+  <widgets xsi:type="model:Label" id="33" x="160" y="344" text="Bloqueados" measuredWidth="78" measuredHeight="64" textAlignment="Center" icon="image (large)" iconPosition="top">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="15" x="136" y="392" text="Tool 2" measuredWidth="62" measuredHeight="31">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Button" id="16" x="224" y="200" text="Tool 2" measuredWidth="62" measuredHeight="31">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Button" id="17" x="320" y="200" text="Tool 3" measuredWidth="62" measuredHeight="31">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Button" id="18" x="424" y="200" text="Tool 4" measuredWidth="62" measuredHeight="31">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Button" id="19" x="224" y="256" text="Tool 2" measuredWidth="62" measuredHeight="31">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Button" id="20" x="224" y="320" text="Tool 2" measuredWidth="62" measuredHeight="31">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Button" id="21" x="224" y="392" text="Tool 2" measuredWidth="62" measuredHeight="31">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Button" id="22" x="320" y="256" text="Tool 2" measuredWidth="62" measuredHeight="31">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Button" id="23" x="320" y="320" text="Tool 2" measuredWidth="62" measuredHeight="31">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Button" id="24" x="320" y="392" text="Tool 2" measuredWidth="62" measuredHeight="31">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Button" id="25" x="424" y="256" text="Tool 2" measuredWidth="62" measuredHeight="31">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Button" id="26" x="424" y="320" text="Tool 2" measuredWidth="62" measuredHeight="31">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Button" id="27" x="424" y="392" text="Tool 2" measuredWidth="62" measuredHeight="31">
+  <widgets xsi:type="model:Label" id="34" x="376" y="180" text="Followers/Followings en común" measuredWidth="209" measuredHeight="64" textAlignment="Center" icon="image (large)" iconPosition="top">
     <font/>
   </widgets>
   <hRuler/>

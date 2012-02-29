@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Browser" id="1" x="64" y="32" width="585" height="385" text="Browser&#xA;http://..." measuredWidth="585" measuredHeight="385"/>
+  <widgets xsi:type="model:Browser" id="1" x="72" y="8" width="585" height="385" text="Browser http://..." measuredWidth="585" measuredHeight="385"/>
   <widgets xsi:type="model:Label" id="2" x="224" y="94" text="Zukofsky Tools" measuredWidth="297" measuredHeight="67">
     <font size="32"/>
   </widgets>
-  <widgets xsi:type="model:Button" id="3" x="288" y="209" text="Sign in with twitter" measuredWidth="147" measuredHeight="31">
+  <widgets xsi:type="model:Button" id="3" x="272" y="240" text="Sign in with twitter" measuredWidth="147" measuredHeight="31">
     <font/>
   </widgets>
+  <widgets xsi:type="model:Icon" id="4" x="336" y="160" measuredWidth="32" measuredHeight="32" icon="internet (large)"/>
   <hRuler/>
   <vRuler/>
   <font/>

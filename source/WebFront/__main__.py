@@ -52,6 +52,12 @@ class Root:
             if cherrypy.session.get('friends').count(follower) == 0:
                 followersnot.append(follower)
         return tmpl.render(followers=followersnot)
+    
+    @cherrypy.expose()
+    def blocked(self):
+        tmpl = env.get_template('blocked.html')
+        return tmpl.render(blocks = cherrypy.session['api'].blocks())
+    
     @cherrypy.expose
     def expire(self):
         cherrypy.lib.sessions.expire()
